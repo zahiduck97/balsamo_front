@@ -1,0 +1,216 @@
+
+/* Form Contacto */
+.banner_form {
+  width: 100%;
+  height: 65vh;
+  background-color: #2b2d42;
+  padding: 200px 0;
+  transition: all .5s;
+}
+
+/* Banner Section */
+
+.banner_desc_form {
+  text-align: center;
+}
+
+.title_form {
+  color: #fff;
+}
+
+/* Formulario Section */
+.agendar {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.agendar_container {
+  text-align: center;
+}
+
+.agendar_title {
+  padding-bottom: 15px;
+}
+
+.agendar_desc {
+  font-size: 20px;
+}
+
+.agendar_items .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agendar .far, .agendar .fas {
+  font-size: 40px !important;
+  color: #f81d23;
+  transition: all .5s;
+}
+
+.icon_desc {
+  margin: 0 auto;
+}
+
+.agendar_items .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.rojo {
+  color: #f81d23;
+}
+
+.btn.formulario_btn {
+  color: #fff;
+  background: #f81d23;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+/* How Section  */
+.how {
+  background-color: #f7f7f7;
+  padding-bottom: 70px;
+}
+
+.how_desc {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.how_desc .title {
+  margin-bottom: 50px;
+}
+
+.item {
+  padding: 0px 18px;
+}
+
+.item_list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item_image {
+  border: 5px solid;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.how .far, .how .fas {
+  font-size: 80px;
+  color: #f81d23;
+}
+
+.item_title {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.item_header {
+  display: flex;
+  justify-content: center;
+}
+
+.item_desc {
+  font-size: 12px;
+}
+
+.item_btn {
+  margin: 25px 0;
+  background-color: #f81d23;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0;
+  width: 100%;
+}
+
+/*Media Queries*/
+
+@media(max-width:991px){
+  .agendar_container {
+    border-bottom: 1px solid #ccc !important;
+  }
+
+  .formulario {
+    padding-top: 30px !important;
+  }
+
+  .how_desc .title {
+    font-size: 30px !important;
+  }
+
+  .item_image {
+    width: 160px !important;
+    height: 160px !important;
+    transition: all .5s;
+  }
+
+  .item {
+    padding: 0px 10px !important;
+  }
+}
+
+/* Small size */
+@media(max-width:767px) {
+  .banner_form h1.title_form {
+    font-size: 35px !important;
+  }
+
+  .banner_form {
+    height: 50vh;
+    padding: 155px 0;
+    transition: all .5s;
+  }
+
+  .item_list {
+    display: block !important;
+  }
+
+  .item_desc {
+    font-size: 20px !important;
+  }
+
+  .how {
+    padding-bottom: 50px !important;
+  }
+}
+
+@media(max-width:575px) {
+  .agendar_container {
+      padding: 0 20px;
+  }
+
+  .agendar .far, .agendar .fas {
+    font-size: 30px !important;
+    transition: all .5s;
+  }
+
+  .icon_desc {
+    font-size: 20px;
+  }
+
+}
+
+@media(max-width:407px) {
+  .agendar .far, .agendar .fas {
+    display: none;
+  }
+}
