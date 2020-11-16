@@ -8,11 +8,13 @@ import {Router} from "@angular/router";
 })
 export class IndexComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+  ) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
+  /** Redirigir a agendar **/
   enviarAgendar() {
     this.router.navigate(['/agendar']);
   }

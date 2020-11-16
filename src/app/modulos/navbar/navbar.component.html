@@ -2,7 +2,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <img src="../assets/sinfondo.png" alt="Logo de Zowl Tattoo" class="navbar-brand">
+      <img src="../assets/sinfondo.png" alt="Logo de Zowl Tattoo" class="navbar-brand" (click)="navegar()">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,10 +10,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
-            <a class="nav-link" routerLink="/">Home</a>
+            <a class="nav-link" routerLink="/" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
-            <a class="nav-link" routerLinkActive="active" routerLink="/agendar">Agendar</a>
+            <a class="nav-link" routerLink="/agendar" data-toggle="collapse" data-target=".navbar-collapse.show">Agendar</a>
           </li>
         </ul>
       </div>

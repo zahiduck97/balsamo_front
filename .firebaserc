@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "balsamo-7e6f2": {
+      "hosting": {
+        "balsamoFront": [
+          "balsamo-7e6f2"
+        ]
+      }
+    }
+  }
+}

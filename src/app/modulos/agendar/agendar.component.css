@@ -77,6 +77,14 @@ textarea {
   padding: 10px 20px;
   font-weight: bold;
   margin: 15px;
+  transition: all .5s cubic-bezier(0.65, 0.05, 0.051, 0.67);
+}
+
+.btn.formulario_btn:hover {
+  background: transparent;
+  color: #f81d23;
+  border: 1px solid #f81d23;
+  transition: all .5s cubic-bezier(0.65, 0.05, 0.051, 0.67);
 }
 
 /* How Section  */
@@ -133,15 +141,26 @@ textarea {
   font-size: 12px;
 }
 
-.item_btn {
-  margin: 25px 0;
-  background-color: #f81d23;
-  color: #fff;
-  font-weight: bold;
-  padding: 15px 0;
-  width: 100%;
+.disabled {
+  color: #fff !important;
+  background: gray !important;
+  border: 1px gray solid !important;
 }
 
+.boton-rojo {
+  color: #fff;
+  background-color: #f81d23;
+}
+
+.boton-azul {
+  color: #fff;
+  background-color: #3E92CC;
+  margin-left: 20px;
+}
+
+.boton-rojo:hover, .boton-azul:hover {
+  opacity: .8;
+}
 /*Media Queries*/
 
 @media(max-width:991px){
@@ -214,3 +233,6 @@ textarea {
     display: none;
   }
 }
+
+
+
